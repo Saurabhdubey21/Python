@@ -1,0 +1,35 @@
+# This program is used to demonstrate the string operations in python
+s1="Hello"
+s2="World"
+s3=s1+s2
+print(s3)
+s4=s1*3
+test="Hello world! This is a test string"
+print("Python"in test)
+print("java"not in test)
+print("Hello" in test)
+print("python" not in test)
+print("java" in test)
+print(test.count("Hello"))
+print(test.index("world"))
+print(test.lower())
+print(test.upper())
+print(test.swapcase())
+print(test.capitalize())
+print(test.title())
+print(test.startswith("Hello"))
+print(test.endswith("string"))
+print(test.replace("Hello","Hi"))
+print(test.split())
+words=test.split()
+print(words)
+joined=" ".join(words)
+print(joined)
+print(test.strip())
+print(test.lstrip())    
+print(test.rstrip())
+print(test.find("world"))
+print(test.find("java"))
+print(test.find("Hello"))
+print(test.rfind("Hello"))
+print(test.rfind("java"))
